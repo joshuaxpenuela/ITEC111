@@ -1,3 +1,4 @@
+//2nd Commit
 function validateForm() {
     let isValid = true;
     
@@ -26,7 +27,7 @@ function validateForm() {
         expiry_date: document.getElementById('expiry_date')
     };
 
-  
+  //2nd Commit
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     const phonePattern = /^[0-9]{11}$/;
     const studentNumberPattern = /^[0-9]{9}$/;
