@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-image: url(CvSU-Front-09-2023-scaled.jpg);
+}
+
+.container {
+  width: 40%; 
+  margin: 40px 80px 50px auto; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  align-items: center;
+  color: #04AA6D;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.invalid {
+  border: 2px solid red;
+  background-color: #f8d7da;
+}
+
+.error-message {
+  color: red !important; 
+  font-size: 12px !important; 
+  margin-top: -8px;
+  margin-bottom: 10px;
+  display: none; 
+}
+
+.invalid + .error-message {
+  display: block; 
+}
+
+.error-message {
+  color: red !important; 
+  font-size: 12px !important; 
+  margin-top: -8px;
+  margin-bottom: 10px;
+  display: none; 
+}
+
+.invalid + .error-message {
+  display: block; 
+}
+
+input:focus {
+  background-color: #dbdbdb;
+  outline: none;
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #02a569;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-style: bold;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #02a569;
+}
